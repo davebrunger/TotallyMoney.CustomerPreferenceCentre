@@ -18,3 +18,8 @@ global using Newtonsoft.Json;
 global using Newtonsoft.Json.Serialization;
 global using OneOf;
 global using TotallyMoney.CustomerPreferenceCentre.Api.Models;
+global using Microsoft.Azure.Documents.Client;
+global using Microsoft.Azure.Documents.Linq;
+global using System.Linq.Expressions;
+
+

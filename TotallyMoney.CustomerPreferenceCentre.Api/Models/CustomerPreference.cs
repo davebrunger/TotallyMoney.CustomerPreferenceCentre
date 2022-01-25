@@ -2,6 +2,8 @@
 {
     public class CustomerPreference
     {
+        public const string CollectionId = "CustomerPreference";
+
         public string Name { get; set; } = null!;
         public OneOf<int, DayOfWeek[], bool> Preference { get; set; }
     }
